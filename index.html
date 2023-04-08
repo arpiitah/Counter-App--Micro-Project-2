@@ -12,20 +12,20 @@
 	<div class="container">
 		<h1>Let's Count</h1>
 		
-		<h2>0</h2>
+		<h2 id="count">0</h2>
 		<div>
-			<button id="increment1">Add with 1</button>
-			<button id="decrement1">Subtract by 1</button>
-			<button id="increment5">Add with 5</button>
-			<button id="decrement10">Subtract by 10</button>
+			<button id="increment1"  onclick="increment()">Add with 1</button>
+			<button id="decrement1"  onclick="decrement()">Subtract by 1</button>
+			<button id="increment5"  onclick="incrementByFive()">Add with 5</button>
+			<button id="decrement10" onclick="decrementByTen()">Subtract by 10</button>
 		</div>
-		<div>
-			<input type="number" id="input" placeholder="Enter a number">
+		<div class="counter">
+			<input type="number" id="input" placeholder="Enter A Number">
 			
 		</div>
 		<div>
-			<button id="increment">Increment</button>
-			<button id="decrement">Decrement</button>
+			<button id="increment" onclick="incrementByInput()">Increment</button>
+			<button id="decrement" onclick="decrementByInput()">Decrement</button>
 		</div>
 	</div>
 	<script src="index.js"></script>
