@@ -8,6 +8,95 @@
 .container {
     display: flex;
     flex-direction: column;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  }
+
+  
+  
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+  }
+  
+  .counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: none;
+    font-family: 'Inter', sans-serif;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  button {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 2px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(109.6deg, rgb(151, 213, 255) 11.2%, rgb(255, 155, 185) 91.1%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+		margin-right: 10px;
+		cursor: pointer;
+  }
+  
+  button:hover {
+    margin: 5px;
+    background: rgb(2,0,36);
+    background: rgb(238,174,202);
+    
+   }
+  
+  input[type=number] {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 10px;
+    border: black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(109.6deg, rgb(151, 213, 255) 11.2%, rgb(255, 155, 185) 91.1%);
+  }
+  
+  input[type=number]:focus {
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    border: black;
+  }
+  
+  button:focus,
+  input[type=number]:focus {
+    box-shadow: 0 0 5px #1573ac;
+    font-family: 'Inter', sans-serif;
+  }
+  
     align-items: center;
     margin-top: 20px;
   }
